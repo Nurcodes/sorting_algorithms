@@ -1,9 +1,9 @@
 #include "sort.h"
-
 /**
  * bubble_sort - bubble sort algorithm
- * @array: array
- * @size: size
+ * @array: pointer to the array to sort.
+ * @size: size of the array.
+ *
  * Return: void
  */
 
