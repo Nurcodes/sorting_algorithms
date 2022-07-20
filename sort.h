@@ -27,6 +27,8 @@ listint_t *create_listint(const int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+int partition(int *array, int first, int last, size_t size);
+void qs(int *array, int first, int last, size_t size);
 
 
 #endif /* _SORT_H_ */
